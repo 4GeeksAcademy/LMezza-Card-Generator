@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#card-complete {
+  border: 1px solid black;
+  width: 400px;
+  height: 600px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+#top-card {
+  width: auto;
+  height: 200px;
+  font-size: 100px;
+  font-size: 60px;
+  background-color: white;
+  border-bottom: none;
+  border-radius: 20px;
+}
+#center-body {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 20px;
+}
+#footer-card {
+  transform: rotate(180deg);
+  width: auto;
+  height: 200px;
+  font-size: 60px;
+  background-color: white;
+  border-bottom: none;
+  border-radius: 20px;
+}
